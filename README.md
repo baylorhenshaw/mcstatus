@@ -1,2 +1,2 @@
 # McStatus
-A status page built for Minecraft servers.
+A minimal status page built for Minecraft servers.
