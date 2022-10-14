@@ -31,7 +31,7 @@
 			{#each group.servers as server}
 				{#await getServer(server.host, server.port)}
 					<Server
-						name="server.name"
+						name="{server.name}"
 						status="loading"
 						online=0
 						max=0

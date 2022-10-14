@@ -13,11 +13,6 @@ export const servers = [
 				"port": 25565
 			},
 			{
-				"name": "Mineplex",
-				"host": "play.cubecraft.netd",
-				"port": 25565
-			},
-			{
 				"name": "Wynncraft",
 				"host": "play.wynncraft.com",
 				"port": 25565
