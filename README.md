@@ -1,2 +1,2 @@
-# mcstatus
-🟢 A status page built for Minecraft servers.
+# McStatus
+A status page built for Minecraft servers.
