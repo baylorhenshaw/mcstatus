@@ -18,10 +18,12 @@
 			<div>
 				<h1 style="text-align: left;">{name}</h1>
 				{#if config.showVersion == true}
-					<p style="text-align: left; font-size: 1rem; font-weight: 400; color: lightgray;">{version} - {protocol}</p>
+					<p style="text-align: left; font-size: 1rem; font-weight: 400; color: lightgray;">{version}</p>
 				{/if}
 			</div>
-			<p>{online}/{max}</p>
+			{#if config.showPlayerCount == true}
+				<p>{online}/{max}</p>
+			{/if}
 		</div>
 	</div>
 {:else if status == "error"}
@@ -83,7 +85,7 @@
 	.server-container svg {
 		width: 2rem;
 		height: 2rem;
-		padding-right: 4vh;
+		padding-right: 2vw;
 	}
 
 	.online svg {
@@ -116,5 +118,27 @@
 		justify-content: space-between;
 		align-items: center;
 		width: 100%;
+	}
+
+	@media (max-width: 1200px) {
+		.server-container {
+			width: 80vw;
+			padding: 4vw;
+		}
+		.server-container svg {
+			width: 2rem;
+			height: 2rem;
+			padding-right: 4vw;
+		}
+
+		.server-container h1 {
+			font-size: 1.1rem;
+		}
+
+		.server-container p {
+			font-size: 0.9rem;
+			font-weight: 400;
+		}
+
 	}
 </style>

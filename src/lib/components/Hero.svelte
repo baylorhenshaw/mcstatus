@@ -22,11 +22,24 @@
 		font-size: 6rem;
 		margin: 0;
 		padding: 0;
+		padding-left: 2rem;
+		padding-right: 2rem;
 	}
 	.hero p {
 		font-size: 1.5rem;
 		margin: 0;
 		padding: 0;
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	@media (max-width: 800px) {
+		.hero h1 {
+			font-size: 3.5rem;
+		}
+		.hero p {
+			font-size: 1rem;
+		}
 	}
 
 </style>

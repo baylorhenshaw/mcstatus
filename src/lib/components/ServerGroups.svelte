@@ -2,6 +2,7 @@
 	import Server from "./Server.svelte"
 	import TotalServers from "./TotalServers.svelte"
 	import {servers} from "../../config/servers.js"
+	import {config} from "../../config/config.js"
 
 	let offline = 0
 
@@ -90,6 +91,13 @@
 		margin-bottom: 0vw;
 		margin-left: 22.5vw;
 		flex-direction: column;
+	}
+
+	@media (max-width: 1200px) {
+		.server-group-container {
+			width: 88vw;
+			margin-left: 6vw;
+		}
 	}
 
 </style>

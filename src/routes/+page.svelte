@@ -24,9 +24,3 @@
 {#if config.showFooter}
 	<Footer/>
 {/if}
-
-<style>
-	.abc {
-		background-color: lime;
-	}
-</style>
