@@ -3,6 +3,11 @@ export const servers = [
 		"title": "Popular Servers",
 		"servers": [
 			{
+				"name": "The Chunk",
+				"host": "play.chunkmc.com",
+				"port": 25565
+			},
+			{
 				"name": "Hypixel",
 				"host": "mc.hypixel.net",
 				"port": 25565
