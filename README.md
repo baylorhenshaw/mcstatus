@@ -1,9 +1,9 @@
 <div align="center">
     <h1>McStatus</h1>
     <p>A minimal status page built for Minecraft servers.</p>
-    <a href="https://github.com/Baezor1/mcstatus/issues"><img src="https://img.shields.io/github/issues/Baezor1/mcstatus"></a>
-    <a href="https://github.com/Baezor1/mcstatus/"><img src="https://img.shields.io/github/forks/Baezor1/mcstatus"></a>
-    <a href="https://github.com/Baezor1/mcstatus/"><img src="https://img.shields.io/github/stars/Baezor1/mcstatus"></a>
+    <a href="https://github.com/baylorhenshaw/mcstatus/issues"><img src="https://img.shields.io/github/issues/baylorhenshaw/mcstatus"></a>
+    <a href="https://github.com/baylorhenshaw/mcstatus/"><img src="https://img.shields.io/github/forks/baylorhenshaw/mcstatus"></a>
+    <a href="https://github.com/baylorhenshaw/mcstatus/"><img src="https://img.shields.io/github/stars/baylorhenshaw/mcstatus"></a>
 </div>
 
 
